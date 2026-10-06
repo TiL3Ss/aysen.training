@@ -32,6 +32,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+/aysen.local.db*
+/drizzle/
 
 # vercel
 .vercel
